@@ -4,7 +4,7 @@ Menu() {
     clear
     echo -e '\n'
     echo "=========================="
-    echo " BOLSA NETFREE 3.5 (ROOT)     "
+    echo " BOLSA NETFREE 3.5 (ROOT) MEME    "
     echo "=========================="
     echo 
     echo "Apenas desconecte da vpn caso esteja conectado"
