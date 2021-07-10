@@ -4,14 +4,14 @@ Menu() {
     clear
     echo -e '\n'
     echo "=========================="
-    echo " BOLSA NETFREE 3.5 (ROOT) MEME    "
+    echo " Capturador de Rede    "
     echo "=========================="
     echo 
     echo "Apenas desconecte da vpn caso esteja conectado"
     echo "e escolha o app de escola que deseja gerar"
     echo "o arquivo .ovpn"
     echo
-    echo "Obs: Usem os apps baixados pela play store"
+    echo "Fornecedor"
     echo "__________________________"
     echo "[ 1 ] - Escola em Casa DF"
     echo "[ 2 ] - E-learning EC"
@@ -35,14 +35,14 @@ Menu() {
     echo "[ 20 ] - Applique-se (Conexão Forçada)"    
     echo "[ 0 ] | SAIR"
     echo
-    echo "Para suporte ou duvidas, procure no telegram:"
-    echo "@mbgratisvivo"
-    echo "@EhisOpeNer"
-    echo "@TROPA_REDBLACK"
+    echo "Build de teste"
+    echo "VIVO, CLARO, TIM, OI"
+    echo ""
+    echo ""
     echo
-    echo "Script feito por @alpacinoo007 e @luanw04"
+    echo "PROGRAMADO POR ALAN"
     echo 
-    echo "Noob Sofre"
+    echo "INTERLUX CAPTURE VPN INTERNET 1.2.9 BY ALAN B"
     read App
     case $App in
     1) App="org.cordova.quasar.corona.app" ; atividade=".SplashScreenActivity" ; nome="EscolaDF" ; E1="sleep 10";;
