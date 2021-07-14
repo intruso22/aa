@@ -32,7 +32,7 @@ Menu() {
     echo "[ 17 ] - CMSP (Conexão Forçada)"
     echo "[ 18 ] - Rio Educa Em Casa (Conexão Forçada)"
     echo "[ 19 ] - Aulas Parana (Conexão Forçada)"
-    echo "[ 20 ] - Applique-se (Conexão Forçada)"    
+    echo "[ 21 ] - Reach4all (Conexão Forçada)"  
     echo "[ 0 ] | SAIR"
     echo
     echo "Build de teste"
@@ -65,6 +65,7 @@ Menu() {
     18) App="tv.ip.rioeduca" ; atividade="tv.ip.my.activities.SplashScreen" ; A3="su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.VideoActivity2" ; nome="RioEducaEmCasa" ; A2="su -c am start -n tv.ip.rioeduca/com.datami.smi.ui.VpnPermissionActivity" ; s="sleep 4" ; A4="su -c am start -n tv.ip.rioeduca/tv.ip.my.activities.SplashScreen" ; db="su -c pm disable tv.ip.rioeduca" ; eb="su -c pm enable tv.ip.rioeduca";;
     19) App="tv.ip.aulapr" ; atividade="tv.ip.my.activities.SplashScreen" ; A3="su -c am start -n tv.ip.aulapr/tv.ip.my.activities.VideoActivity2" ; nome="AulaParana" ; A2="su -c am start -n tv.ip.aulapr/com.datami.smi.ui.VpnPermissionActivity" ; s="sleep 4" ; A4="su -c am start -n tv.ip.aulapr/tv.ip.my.activities.SplashScreen" ; db="su -c pm disable tv.ip.aulapr" ; eb="su -c pm enable tv.ip.aulapr";;
     20) App="tv.ip.appliquese" ; atividade="tv.ip.my.activities.SplashScreen" ; A3="su -c am start -n tv.ip.appliquese/tv.ip.my.activities.VideoActivity2" ; nome="Applique-se" ; A2="su -c am start -n tv.ip.appliquese/com.datami.smi.ui.VpnPermissionActivity" ; s="sleep 4" ; A4="su -c am start -n tv.ip.appliquese/tv.ip.my.activities.SplashScreen" ; db="su -c pm disable tv.ip.appliquese" ; eb="su -c pm enable tv.ip.appliquese";;
+    21) App="com.datami.reach4all" ; atividade="com.datami.my.activities.SplashScreen" ; A3="su -c am start -n com.datami.reach4all/com.datami.my.activities.VideoActivity2" ; nome="Reach4all" ; A2="su -c am start -n com.datami.reach4all/com.datami.smi.ui.VpnPermissionActivity" ; s="sleep 4" ; A4="su -c am start -n com.datami.reach4all/com.datami.my.activities.SplashScreen" ; db="su -c pm disable com.datami.reach4all" ; eb="su -c pm enable com.datami.reach4all";;
     0) clear ; exit ;;
     *) "Calma Barboleta" ; echo ; Menu;;
     esac
