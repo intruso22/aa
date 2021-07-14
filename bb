@@ -4,7 +4,7 @@ Menu() {
     clear
     echo -e '\n'
     echo "=========================="
-    echo " Capturador de Rede    "
+    echo " Capturador de Rede 1   "
     echo "=========================="
     echo 
     echo "Apenas desconecte da vpn caso esteja conectado"
