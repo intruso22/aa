@@ -32,7 +32,7 @@ Menu() {
 
 connect () {
 clear
-su -c 'svc data enable' && su -c pm enable $App && su -c pm clear $App && $A4 && $s && $A2 && $s && $db && $eb && am start -n $App/$atividade && sleep 4 && $A3 && $s && clear 
+su -c pm enable $App && su -c pm clear $App && $A4 && $s && $A2 && $s && $db && $eb && am start -n $App/$atividade && sleep 4 && $A3 && $s && clear 
 }
 clear
 Menu
